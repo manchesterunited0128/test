@@ -1,0 +1,100 @@
+header{
+    background-color: black;
+    height: 40px;
+}
+
+header ul{
+    list-style-type: none;
+    color: white;
+}
+
+header ul li{
+    float: left;
+    padding-right: 70px;
+    font-size: 15px;
+    margin-top: 10px;
+}
+
+main{
+    clear: left;
+}
+
+.right h3{
+    border-bottom: 3px dotted gray;
+    
+}
+
+.left{
+    float: left;
+    width: 50%;
+    
+}
+
+.left h2 .h{
+    border-left: 5px solid black;
+    border-bottom: 3px solid black;
+    padding-left: 10px;
+    padding-top: 3px;
+}
+
+.form{
+    margin-left: 10px;
+}
+
+.box1 h2{
+    margin-left: 10px;
+    margin-top: 15px;
+    margin-bottom: 20px;
+    border-left: 4px red solid;
+    background-color: #1f1f1;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+    width: 500px;
+    font-size: 20px
+}
+
+.left .box5{
+    margin-top: 30px;
+    clear: left;
+    width: 100%;
+    height: 160px;
+    background-color: #fbfbfb;
+    border: 3px #ebebeb solid;
+}
+
+
+
+
+.right{
+    float: right;
+    width: 40%;
+    height: 800px;
+    margin-left: 3%;
+}
+
+.submit{
+    border: 1px solid lightgray;
+    color: white;
+    padding: 4px 10px;
+    background-color: dimgray;
+}
+
+.box2 h4{
+    border-bottom: 2px solid lightgray;
+    margin-left: 10px;
+}
+
+.box3 h4{
+    border-bottom: 2px solid lightgray;
+    margin-left: 10px;
+}
+
+footer{
+    clear: both;
+    text-align: center;
+    background-color: black;
+    color: white;
+    height: 40px;
+    padding-top: 15px
+}
