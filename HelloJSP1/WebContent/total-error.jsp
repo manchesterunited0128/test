@@ -22,8 +22,12 @@
 	<td><%=exception.toString() %></td>
 	</tr>
 	<tr>
+	<td><strong>スタックトレース</strong></td>
 	<td>
-	</tr>
+	<%
+	 exception.printStackTrace(new java.io.PrintWriter(out));
+	 %>
+	</td></tr>
 
 	</table>
 </body>
